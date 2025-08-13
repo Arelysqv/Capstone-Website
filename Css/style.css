@@ -1,7 +1,20 @@
 #Dinocryption {
-    Color:rgb(253, 55, 61);
+    Color:rgb(253, 92, 162);
     text-align: center;
+   font-weight: bold;
 }
+
+.Backgroundimg {
+    background-image: url(https://thumbs.dreamstime.com/b/abstract-glowing-heart-binary-code-digital-love-technology-symbol-201887943.jpg);
+    background-repeat: no-repeat;
+    
+    
+ }
+
+ /* body {
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHE5bGhiNGxqMmR3emg2cmR4ajk2ZW10bWo5bGluZ2xjemNxZ3NyZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5kFbMBOEdWjg1nItoG/giphy.gif);
+ } */
+
 div input {
     color:blueviolet;
     text-align: center;
@@ -19,7 +32,7 @@ div input::placeholder {
   font-weight: 400;
   font-size: 320px;
   font-style: normal;
-  text-shadow: rgb(255, 19, 224) 1px 1px 5px;
+  text-shadow: rgb(11, 255, 113) 1px 1px 5px;
 }
 
 /* div cursor { */
