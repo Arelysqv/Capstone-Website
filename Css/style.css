@@ -1,5 +1,5 @@
 #Dinocryption {
-    Color:rgb(253, 55, 61) ;
+    Color:rgb(253, 55, 61);
     text-align: center;
 }
 div input {
@@ -12,11 +12,12 @@ div input::placeholder {
     opacity: 0.5;
 }
 
+
 .ballet-uniquifier {
   font-family: "Ballet", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-size: 200px;
+  font-size: 320px;
   font-style: normal;
   text-shadow: rgb(255, 19, 224) 1px 1px 5px;
 }
@@ -27,5 +28,21 @@ div input::placeholder {
 } */
 
  .Buttons {
-    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 7vh;
+}
+
+.Buttons input {
+    height: 100%;
+    font-size: 20px;
+}
+
+.Buttons button {
+    height: 100%;
+}
+
+#number {
+    width: 80px;
 }
