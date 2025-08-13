@@ -7,10 +7,12 @@
 .Backgroundimg {
     background-image: url(https://thumbs.dreamstime.com/b/abstract-glowing-heart-binary-code-digital-love-technology-symbol-201887943.jpg);
     background-repeat: no-repeat;
-    
-    
- }
-
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    max-width: 100%;
+ } 
+ 
  /* body {
     background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHE5bGhiNGxqMmR3emg2cmR4ajk2ZW10bWo5bGluZ2xjemNxZ3NyZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5kFbMBOEdWjg1nItoG/giphy.gif);
  } */
