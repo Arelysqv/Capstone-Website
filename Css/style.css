@@ -1,31 +1,43 @@
 #Dinocryption {
-    Color:rgb(253, 92, 162);
+    Color:rgb(255, 32, 210);
     text-align: center;
    font-weight: bold;
 }
-/* image is way 2 big dont think its possible*/
-.BackgroundImg {
-    background-image: url("https://img.itch.zone/aW1hZ2UvMTY1MjM4MC85NzIxODE5LmdpZg==/x200/5JFJs6.gif"); 
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
 
+.BackgroundImg {
+    background-image: url("https://gifdb.com/images/high/matrix-code-purple-hacking-glitch-7bx7559lth2twmnk.gif");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
 }
 
- /* body {
-    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHE5bGhiNGxqMmR3emg2cmR4ajk2ZW10bWo5bGluZ2xjemNxZ3NyZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5kFbMBOEdWjg1nItoG/giphy.gif);
- } */
-
 div input {
-    color:blueviolet;
+    color:rgb(255, 255, 255);
     text-align: center;
+    font-family: "IM Fell French Canon SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    background-color: black;
+    /* position: fixed;
+    left: 0;
+    width: 93vw;
+    max-height: 10%;
+    bottom: 25vh; */
+    /* justify-content:center; */
+    /* I want to put the box of encryption in the middle of the page and not all the way to the end */
 }
 
 div input::placeholder {
-    color: purple;
+    color: rgb(255, 255, 255);
     opacity: 0.5;
+    font-family: "IM Fell French Canon SC", serif;
+    font-weight: 400;
+    font-size:30px;
+    font-style: normal;
+    font-weight: bold;
 }
 
 
@@ -33,9 +45,10 @@ div input::placeholder {
   font-family: "Ballet", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-size: 320px;
+  font-size: 300px;
   font-style: normal;
-  text-shadow: rgb(11, 255, 113) 1px 1px 5px;
+  text-shadow: rgb(255, 255, 255) 3px 3px 9px;
+  margin: 0;
 }
 
 /* div cursor { */
@@ -48,11 +61,12 @@ div input::placeholder {
     flex-direction: row;
     justify-content: center;
     height: 7vh;
+    
 }
 
 .Buttons input {
     height: 100%;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .Buttons button {
@@ -62,3 +76,19 @@ div input::placeholder {
 #number {
     width: 80px;
 }
+/* 
+.donnell{
+    position:relative;
+    top: 25vh;
+    width:100vw;
+    height: 40vh;
+}
+#encryptionButton{
+z-index: 10;
+}
+
+#encryptButton{
+    position: fixed;
+
+} */
+ 

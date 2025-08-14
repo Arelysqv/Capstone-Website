@@ -21,10 +21,9 @@ function caesarCipher(message, shift) {
             return result;
         }
 
-        function handleEncrypt() {Random
+        function handleDecrypt() { 
             const message = document.getElementById('message').value;
-            const shift = Math.floor(Math.random()*25) +1;
+            const shift = parseInt(document.getElementById('shift').value);
             const result = caesarCipher(message, shift);
-            document.getElementById('result').innerHTML = 
-            `Encrypted Message: ${result}<br>Shift Used${shift}`;
-        } 
+            document.getElementById('result').textContent = result;
+        }
