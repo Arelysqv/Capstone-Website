@@ -22,8 +22,8 @@ function caesarCipher(message, shift) {
         }
 
         function handleDecrypt() { 
-            const message = document.getElementById('message').value;
-            const shift = parseInt(document.getElementById('shift').value);
+            const message = document.getElementById('alphabet').value;
+            const shift = parseInt(document.getElementById("number").value);
             const result = caesarCipher(message, shift);
             document.getElementById('result').textContent = result;
         }

@@ -76,6 +76,10 @@ div input::placeholder {
 #number {
     width: 80px;
 }
+
+#result {
+    text-align:center;
+}
 /* 
 .donnell{
     position:relative;
