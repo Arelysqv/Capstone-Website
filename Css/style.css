@@ -21,18 +21,11 @@ div input {
     font-style: normal;
     font-weight: bold;
     background-color: black;
-    /* position: fixed;
-    left: 0;
-    width: 93vw;
-    max-height: 10%;
-    bottom: 25vh; */
-    /* justify-content:center; */
-    /* I want to put the box of encryption in the middle of the page and not all the way to the end */
 }
 
 div input::placeholder {
-    color: rgb(255, 255, 255);
-    opacity: 0.5;
+    color: rgb(255, 251, 251);
+    opacity: 0.79;
     font-family: "IM Fell French Canon SC", serif;
     font-weight: 400;
     font-size:30px;
@@ -78,27 +71,52 @@ div input::placeholder {
 }
 
 #result {
+    display: flex;
+    justify-content: center;
     text-align:center;
-}
-/* 
-.donnell{
-    position:relative;
-    top: 25vh;
-    width:100vw;
-    height: 40vh;
-}
-#encryptionButton{
-z-index: 10;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    
 }
 
-#encryptButton{
-    position: fixed;
-
-} */
+#result p {
+    background-color: rgb(255, 32, 210);
+    width: 50%;
+    border-radius: 20px;
+    border: 5px solid blueviolet;
+}
+.homebuttons {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    font-style: normal;
+}
 
 div a {
-    font-size: 40px;
-    text-align: center;
-    justify-content: space-around;
+    font-family: "IM Fell French Canon SC", serif;
+    text-decoration: none;
+    font-size: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    border-color:rgb(188, 18, 154);
+    border-width: 5px;
+    border-style: solid;
+    font-weight:bold;
+    color:rgb(255, 32, 210);
 }
- 
+
+.home-container {
+    margin-top: 20px;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 40px;
+}
+.Homepage {
+    width: 150px;
+
+}

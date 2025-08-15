@@ -26,5 +26,5 @@ function caesarCipher(message, shift) {
             const shift = document.getElementById("number").value;
             const result = caesarCipher(message, shift);
             document.getElementById('result').innerHTML = 
-            `Encrypted Message: ${result}<br>Shift Used${shift}`;
+            `<p>Encrypted Message: ${result}<br>Shift Used: ${shift}</p>`;
         } 
